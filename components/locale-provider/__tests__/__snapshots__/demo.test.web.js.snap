@@ -24,7 +24,7 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
           class="am-flexbox-item am-pagination-wrap-btn am-pagination-wrap-btn-prev"
         >
           <a
-            class="am-button am-button-inline"
+            class="am-button am-button-inline am-button-disabled"
             role="button"
           >
             <span>
@@ -38,7 +38,7 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
           <span
             class="active"
           >
-            2
+            1
           </span>
           /
           <span>

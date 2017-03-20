@@ -16,7 +16,7 @@ Support WEB, React-Native.
 Properties | Descrition | Type | Default
 -----------|------------|------|--------
 |  mode  | 形态，可选`button`,`number`,`pointer` | string | `button`  |
-|  current  | 当前索引(注意索引是从0开始计数的) | number  |  无  |
+|  current  | 当前页号 | number  |  1  |
 |  total  | 数据总数 | number  |  0  |
 |  simple  | 是否隐藏数值 | boolean | false  |
 |  disabled  | 禁用状态 | boolean | false  |

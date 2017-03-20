@@ -11,6 +11,21 @@ title: 更新日志
 
 ---
 
+
+`2017-xx-xx`
+
+### 1.1.0
+
+## New Feature
+
+
+## Break Change
+
+- `pagination` 组件 `current` 属性改成从 `1` 开始索引 （[#1009](https://github.com/ant-design/ant-design-mobile/issues/1009)）
+
+
+## Improve & Bugfix
+
 `2017-04-07`
 
 # 1.0.8
@@ -49,6 +64,7 @@ title: 更新日志
 - InputItem, TextareaItem, SearchBar 组件样式优化，增大可点击区域。 ([#1017](https://github.com/ant-design/ant-design-mobile/issues/1017))
 - React-Native Steps 支持 React.Node 类型的 `title`, `description`。 [#1008](https://github.com/ant-design/ant-design-mobile/issues/1008)
 - DatePicker 确保默认日期在 `minDate`, `maxDate` 范围内 （[#1033](https://github.com/ant-design/ant-design-mobile/issues/1033)）
+
 
 
 
