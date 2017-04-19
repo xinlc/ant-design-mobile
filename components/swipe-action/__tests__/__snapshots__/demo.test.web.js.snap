@@ -21,6 +21,7 @@ exports[`renders ./components/swipe-action/demo/basic.md correctly 1`] = `
         >
           <div
             class="am-swipe-btn "
+            role="button"
             style="background-color:#108ee9;color:white;"
           >
             <div
@@ -31,6 +32,7 @@ exports[`renders ./components/swipe-action/demo/basic.md correctly 1`] = `
           </div>
           <div
             class="am-swipe-btn "
+            role="button"
             style="background-color:#ddd;color:white;"
           >
             <div
@@ -45,6 +47,7 @@ exports[`renders ./components/swipe-action/demo/basic.md correctly 1`] = `
         >
           <div
             class="am-swipe-btn "
+            role="button"
             style="background-color:#ddd;color:white;"
           >
             <div
@@ -55,6 +58,7 @@ exports[`renders ./components/swipe-action/demo/basic.md correctly 1`] = `
           </div>
           <div
             class="am-swipe-btn "
+            role="button"
             style="background-color:#F4333C;color:white;"
           >
             <div
@@ -84,6 +88,7 @@ exports[`renders ./components/swipe-action/demo/basic.md correctly 1`] = `
                 More
               </div>
               <div
+                aria-hidden="true"
                 class="am-list-arrow am-list-arrow-horizontal"
               />
             </div>
@@ -105,6 +110,7 @@ exports[`renders ./components/swipe-action/demo/basic.md correctly 1`] = `
         >
           <div
             class="am-swipe-btn "
+            role="button"
             style="background-color:#108ee9;color:white;"
           >
             <div
@@ -115,6 +121,7 @@ exports[`renders ./components/swipe-action/demo/basic.md correctly 1`] = `
           </div>
           <div
             class="am-swipe-btn "
+            role="button"
             style="background-color:#ddd;color:white;"
           >
             <div
@@ -129,6 +136,7 @@ exports[`renders ./components/swipe-action/demo/basic.md correctly 1`] = `
         >
           <div
             class="am-swipe-btn "
+            role="button"
             style="background-color:#ddd;color:white;"
           >
             <div
@@ -139,6 +147,7 @@ exports[`renders ./components/swipe-action/demo/basic.md correctly 1`] = `
           </div>
           <div
             class="am-swipe-btn "
+            role="button"
             style="background-color:#F4333C;color:white;"
           >
             <div
@@ -168,6 +177,7 @@ exports[`renders ./components/swipe-action/demo/basic.md correctly 1`] = `
                 More
               </div>
               <div
+                aria-hidden="true"
                 class="am-list-arrow am-list-arrow-horizontal"
               />
             </div>
