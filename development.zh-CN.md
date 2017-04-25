@@ -151,7 +151,6 @@ $ npm run rn-start
 # Open another terminal tab
 $ npm run ios / android
 ```
-
 If you need to add a new component, then modify `rn-kitchen-sink/demoList.js` and `./index.js`.
 
 ### 提交代码
@@ -221,3 +220,22 @@ $ npm run test:web -- components/button/__tests__/index.test.web.js -t 'pressIn'
 1. 运行测试 `node --debug-brk ./node_modules/.bin/jest -i -c .jest.json -i components/button/__tests/index.test.js` (web 组件用 .jest.web.json);
 1. 运行 `node-inspector`；
 1. 打开 `http://127.0.0.1:8080/?port=5858`，第一次会断点到 jest 的代码里，点继续运行，等一会后会到我们断点的地方。
+
+
+-----
+## 注意
+
+### 添加新组件
+- `demo/basic.md` 是web文档的demo
+- `demo/basic.tsx` 是RN demo
+- 一定要写index.en-US.md 否则不生成jsx
+- RN添加新组件修改`rn-kitchen-sink/demoList.js` and `./index.js`.
+- 添加新组件到`components/index.web.tsx`
+- 文档demo可能有缓存，执行`npm run clean` and `npm run start`
+
+### 发布
+```bash
+bash deploy.sh
+```
+
+

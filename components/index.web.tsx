@@ -54,3 +54,5 @@ export { default as WhiteSpace } from './white-space/index.web';
 export { default as WingBlank } from './wing-blank/index.web';
 
 export { default as LocaleProvider } from './locale-provider/index';
+
+export { default as ScrollView } from './scroll-view/index.web';

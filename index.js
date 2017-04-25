@@ -42,3 +42,5 @@ export { default as WhiteSpace } from './components/white-space/';
 export { default as WingBlank } from './components/wing-blank/';
 
 export { default as LocaleProvider } from './components/locale-provider/';
+
+export { default as ScrollView } from './components/scroll-view/';

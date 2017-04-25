@@ -70,6 +70,12 @@ module.exports = {
       module: require('../components/list-view/demo/basic-row'),
     },
     {
+      title: 'ScrollView',
+      description: '滚动容器',
+      icon: 'https://zos.alipayobjects.com/rmsportal/lMztpIPTRAIWGIP.png',
+      module: require('../components/scroll-view/demo/basic'),
+    },
+    {
       title: 'Modal',
       description: '对话框',
       icon: 'https://os.alipayobjects.com/rmsportal/HzRRcuwtqUCCOBg.png',
