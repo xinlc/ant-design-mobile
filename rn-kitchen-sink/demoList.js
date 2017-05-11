@@ -248,6 +248,12 @@ module.exports = {
       module: require('../components/flex/demo/basic'),
     },
     {
+      title: 'Text',
+      description: '文本',
+      icon: 'https://os.alipayobjects.com/rmsportal/zFqYaBWIPpYYORq.png',
+      module: require('../components/text/demo/basic'),
+    },
+    {
       title: 'GridList',
       description: '网格列表',
       icon: 'https://os.alipayobjects.com/rmsportal/UBGcnLKfVQIXgUb.png',

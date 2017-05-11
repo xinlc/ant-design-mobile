@@ -224,6 +224,7 @@ $ npm run test:web -- components/button/__tests__/index.test.web.js -t 'pressIn'
 
 -----
 ## 注意
+修改组件热更新 `npm run watch-tsc`
 
 ### 添加新组件
 - `demo/basic.md` 是web文档的demo
@@ -237,5 +238,7 @@ $ npm run test:web -- components/button/__tests__/index.test.web.js -t 'pressIn'
 ```bash
 bash deploy.sh
 ```
+> 删除package.josn prepublish， 再执行npm publish   
+> 执行npm run pub 发布，但是会有问题。。。待研究
 
 

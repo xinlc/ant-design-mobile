@@ -36,6 +36,7 @@ export { default as Switch } from './components/switch/';
 export { default as TabBar } from './components/tab-bar/';
 export { default as Tabs } from './components/tabs/';
 export { default as Tag } from './components/tag/';
+export { default as Text } from './components/text/';
 export { default as TextareaItem } from './components/textarea-item/';
 export { default as Toast } from './components/toast/';
 export { default as WhiteSpace } from './components/white-space/';

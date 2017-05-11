@@ -4,10 +4,10 @@ interface Props {
   children?: any;
   onScroll?: Function;
   style?: React.CSSProperties;
+  horizontal?: boolean;
   /** below RN only */
   contentContainerStyle?: React.CSSProperties;
   keyboardDismissMode?: 'none'|'interactive'|'on-drag';
-  horizontal?: boolean;
   keyboardShouldPersistTaps?: 'always'|'never'|'handled';
   onContentSizeChange?: Function;
   removeClippedSubviews?: boolean;

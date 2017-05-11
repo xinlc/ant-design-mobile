@@ -46,6 +46,7 @@ export default class WebIndex extends React.Component {
     });
   }
 
+  // source={{ uri: 'https://mobile.ant.design/kitchen-sink/' }}
   render() {
     return (
       <View style={styles.container}>
@@ -54,7 +55,7 @@ export default class WebIndex extends React.Component {
           ref="webview"
           onLoadEnd={this.onLoadEnd}
           automaticallyAdjustContentInsets={false}
-          source={{ uri: 'https://mobile.ant.design/kitchen-sink/' }}
+          source={{ uri: 'http://localhost:8002' }}
           scalesPageToFit={false}
         />
         <Modal
