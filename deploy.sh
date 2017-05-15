@@ -7,8 +7,9 @@ rm -rf npm_dist/antd-mobile-cyq/lib
 cp -R dist npm_dist/antd-mobile-cyq/
 cp -R lib npm_dist/antd-mobile-cyq/
 
+cd npm_dist/antd-mobile-cyq/
+
 echo '-----------------------------'
-echo 'cd npm_dist'
 echo 'updating the version number.'
 echo 'npm publish'
 exit 1;
